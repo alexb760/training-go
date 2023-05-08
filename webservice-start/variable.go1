@@ -1,0 +1,20 @@
+//fmt.Print("hello strutured \n")
+// defines the type then initialized. vervose
+//var i int
+//i = 9
+//fmt.Println(i)
+// define the type and initilized less vervose
+//var f float32 = 3.146
+//fmt.Println(f)
+
+// Go inferece the type of the variable.
+//firsName := "Alex"
+//fmt.Println(firsName)
+
+// Pointers
+// Poniters needs to be initialized first otherwise will throw an error
+//var lastName *string = new(string)
+// Then in orden to asign any value to then we need to de-reference a pointer
+//*lastName = "brasss--"
+//fmt.Println(lastName)  // will print the actual memory address
+//fmt.Println(*lastName) // de-reference a pointer again
